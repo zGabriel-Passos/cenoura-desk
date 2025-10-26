@@ -72,9 +72,18 @@
     transition: background 0.2s, color 0.2s;
 }
 
+.googleBtn svg {
+    transition: fill 0.4s;
+}
+
+
+
 .googleBtn:hover {
-    background: #ffe0b2;
-    color: #ff9b21;
+    background-color: lightgray;
+}
+
+.googleBtn:hover svg {
+    fill: #ce0000;
 }
 
 .rightSide {
