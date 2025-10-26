@@ -46,9 +46,9 @@ export default function Home() {
             </div>
 
             <nav className={styles.navLinks} aria-label="principal">
-              <Link href="/components/login" className={styles.linkCustomizado}>Quero logar</Link>
+              <Link href="/login" className={styles.linkCustomizado}>Quero logar</Link>
               <span className={styles.separator}>|</span>
-              <Link href="/components/cadastro" className={styles.linkCustomizado}>Criar conta</Link>
+              <Link href="/login" className={styles.linkCustomizado}>Criar conta</Link>
             </nav>
           </div>
 
