@@ -39,6 +39,4 @@ export default function Page() {
             </div>
         </div>
     );
-
 }
-// ...existing code...
