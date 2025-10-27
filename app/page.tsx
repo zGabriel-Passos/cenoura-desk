@@ -2,7 +2,7 @@
 
 import React, { useState } from 'react';
 import Link from "next/link";
-import { MeuModal } from './components/ModalSimples'; // Importa o componente modal
+import { MeuModal } from './components/ModalSimples';
 import styles from './styles.module.css';
 
 import ChatIcon from '../public/icons/chat';
@@ -19,7 +19,6 @@ export default function Home() {
   const openModal = () => setIsModalOpen(true);
   const closeModal = () => setIsModalOpen(false);
 
-  // Função para rolar suavemente até uma section pelo id
   const scrollToSection = (sectionId: string) => {
     const section = document.getElementById(sectionId);
     if (section) {
