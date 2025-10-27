@@ -41,7 +41,7 @@ export default function Home() {
         <section className={styles.Section1}>
           <div className={styles.headerWrapper}>
             <div className={styles.brand}>
-              <h1>🥕 CenouraDesk</h1>
+              <h1>🥕 <span> Cenoura</span>Desk</h1>
             </div>
 
             <nav className={styles.navLinks} aria-label="principal">

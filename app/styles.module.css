@@ -27,6 +27,10 @@
     border-radius: 50px;
 }
 
+.brand span {
+    color: #ffffff;
+}
+
 .brand h1 {
     font-size: 1.5rem;
     font-weight: 700;
@@ -131,6 +135,7 @@
     align-items: center;
     justify-content: center;
     width: 50px;
+    border: 2px solid #ffffff85;
     height: 50px;
     position: fixed;
     bottom: 20;
@@ -138,7 +143,6 @@
     background-color: #ff9b21;
     border-radius: 80px;
     cursor: pointer;
-    border: none;
     transition: 0.2s;
 }
 
@@ -220,9 +224,11 @@
     height: 80px;
     justify-content: space-around;
     align-items: center;
-    color: white;
+    background-color: #ff9b21d5;
+    border-radius: 50px;
+    color: rgb(255, 255, 255);
     padding: 10px;
-    border-top: 2px solid #ff9b21;
+    border: 2px solid #ffffff;
     margin-top: auto;
     text-align: center;
 }
@@ -236,7 +242,7 @@
 }
 
 .footer svg {
-    fill: white;
+    fill: rgb(255, 255, 255);
     width: 24px;
     cursor: pointer;
     height: 24px;
@@ -245,6 +251,5 @@
 
 .footer svg:hover {
     opacity: 0.7;
-    fill: oklab(77.61200000000001% 0.07453 0.15042);
+    fill: rgb(255, 174, 0);
 }
-
