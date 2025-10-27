@@ -28,7 +28,6 @@ export default function Home() {
 
   return (
     <div className={styles.container}>
-
       <button
         className={styles.iconFixed}
         onClick={openModal}
