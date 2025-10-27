@@ -128,6 +128,9 @@
         -moz-animation: AnimationName 30s ease infinite;
         animation: AnimationName 30s ease infinite;
     }
+    .leftSide h2{
+        font-size: 20px;
+    }
 }
 
 @media (max-width: 768px) {
