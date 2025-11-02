@@ -16,8 +16,8 @@ const poppins = Poppins({
 });
 
 export const metadata: Metadata = {
-  title: "CenouraDesk - Gerenciamento de agendamentos",
-  description: "O controle total da sua agenda e dos seus profissionais",
+  title: "CenouraHub - Agente Repositório Python",
+  description: "Descubra projetos e ideias.",
   icons: {
     icon: '/icon2.png',
   },

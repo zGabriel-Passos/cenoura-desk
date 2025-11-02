@@ -17,9 +17,6 @@ const Sidemenu = ({ onPageChange }: SidemenuProps) => {
                     <li id="agenda" onClick={() => handleItemClick('Agenda')} style={{ cursor: 'pointer' }}>Agenda</li>
                     <li id="produtos" onClick={() => handleItemClick('Produtos')} style={{ cursor: 'pointer' }}>Produtos</li>
                     <li id="config" onClick={() => handleItemClick('Config')} style={{ cursor: 'pointer' }}>Config</li>
-                    <li id="nota" onClick={() => handleItemClick('Nota')} style={{ cursor: 'pointer' }}>Nota</li>
-                    <li id="clientes" onClick={() => handleItemClick('Clientes')} style={{ cursor: 'pointer' }}>Clientes</li>
-                    <li id="links-p" onClick={() => handleItemClick('Links de pagamento')} style={{ cursor: 'pointer' }}>Links de pagamento</li>
                 </ul>
             </div>
         </div >

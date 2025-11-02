@@ -40,7 +40,7 @@ export default function Home() {
         <section className={styles.Section1}>
           <div className={styles.headerWrapper}>
             <div className={styles.brand}>
-              <h1>🥕 <span> Cenoura</span>Desk</h1>
+              <h1>🥕 <span> Cenoura</span>Hub</h1>
             </div>
 
             <nav className={styles.navLinks} aria-label="principal">
@@ -90,7 +90,7 @@ export default function Home() {
         </div>
         <div>
           <p>
-            &copy; {new Date().getFullYear()} <strong>CenouraDesk</strong>. Todos os direitos reservados.
+            &copy; {new Date().getFullYear()} <strong>CenouraHub</strong>. Todos os direitos reservados.
           </p>
         </div>
       </footer>
@@ -101,7 +101,7 @@ export default function Home() {
         onClose={closeModal}
       >
         <div>
-          <h3>Atendimento CenouraDesk</h3>
+          <h3>Atendimento CenouraHub</h3>
           <p>Olá! Em que podemos ajudar hoje? Deixe sua mensagem ou dúvida abaixo.</p>
           <textarea
             placeholder="Digite sua mensagem aqui..."
