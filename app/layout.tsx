@@ -30,7 +30,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="pt-BR" className={poppins.variable}>
-      <body>
+      <body cz-shortcut-listen="true">
         {children}
       </body>
     </html>

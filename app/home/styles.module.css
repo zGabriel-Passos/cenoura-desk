@@ -17,13 +17,9 @@
     text-decoration: none;
     border: none;
     background: none;
-    border-bottom: 2px solid transparent;
+    border-bottom: 2px solid #d3d3d32c;
     transition: border-bottom 0.2s, opacity 0.6s;
     cursor: pointer;
-}
-
-.tabs button:hover {
-    opacity: 0.7;
 }
 
 .tabs .active {

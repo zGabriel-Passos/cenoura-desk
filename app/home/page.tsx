@@ -29,7 +29,7 @@ const Page = () => {
     return (
         <div>
             <header style={{ height: '60px', display: 'flex', alignItems: 'center', justifyContent: 'space-between', padding: '15px' }}>
-                <h3 style={{ cursor: 'default' }}>🥕 Hub <span style={{ fontSize: '14px', fontWeight: '100' }}>- em beta</span></h3>
+                <h3 style={{ cursor: 'default' }}>🥕 Hub <span style={{ fontSize: '14px', fontWeight: '100', color: '#ff9b21' }}>- em beta</span></h3>
                 <div style={{ display: 'flex', alignItems: 'center', gap: '20px' }}>
                     <button id="theme" style={{ all: 'unset', cursor: 'pointer' }}>
                         <Theme />
