@@ -6,7 +6,7 @@ export default function GridContainer() {
         <div className={styles.gridContainer}>
             <div className={`${styles.gridItem} ${styles.boxA}`}>
                 <p>
-                    <strong>CenouraHub:</strong> A Agenda Inteligente que Tira a Complicação da Sua Mão. Concentre-se no seu talento e deixe a gestão de agendamentos e faltas por conta da nossa tecnologia.
+                    <strong>CenouraDesk:</strong> A Agenda Inteligente que Tira a Complicação da Sua Mão. Concentre-se no seu talento e deixe a gestão de agendamentos e faltas por conta da nossa tecnologia.
                 </p>
                 <p><strong>Maximize Cada Cadeira. Maximize Seu Lucro.</strong> Plataforma completa para salões e barbearias: mais agendamentos, menos "no-shows" e controle financeiro total. Comece a lucrar mais hoje.</p>
             </div>
@@ -26,7 +26,7 @@ export default function GridContainer() {
 
                     <p>
                         2. Sobre Gestão de Dados e Decisão
-                        Dados em Tempo Real, Decisões Precisas Pare de chutar. CenouraHub fornece relatórios detalhados sobre faturamento por serviço, desempenho de cada profissional e horários de pico. Tenha em mãos o mapa exato para expandir seu negócio.
+                        Dados em Tempo Real, Decisões Precisas Pare de chutar. CenouraDesk fornece relatórios detalhados sobre faturamento por serviço, desempenho de cada profissional e horários de pico. Tenha em mãos o mapa exato para expandir seu negócio.
                     </p>
 
                     <p>

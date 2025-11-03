@@ -29,7 +29,7 @@ const Page = () => {
     return (
         <div>
             <header style={{ height: '60px', display: 'flex', alignItems: 'center', justifyContent: 'space-between', padding: '15px' }}>
-                <h3 style={{ cursor: 'default' }}>🥕 Hub <span style={{ fontSize: '14px', fontWeight: '100', color: '#ff9b21' }}>- em beta</span></h3>
+                <h3 style={{ cursor: 'default' }}>🥕 Desk <span style={{ fontSize: '14px', fontWeight: '100', color: '#ff9b21' }}>- em beta</span></h3>
                 <div style={{ display: 'flex', alignItems: 'center', gap: '20px' }}>
                     <button id="theme" style={{ all: 'unset', cursor: 'pointer' }}>
                         <Theme />
@@ -52,6 +52,14 @@ const Page = () => {
                     >
                         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256"><path d="M219.31,108.68l-80-80a16,16,0,0,0-22.62,0l-80,80A15.87,15.87,0,0,0,32,120v96a8,8,0,0,0,8,8h64a8,8,0,0,0,8-8V160h32v56a8,8,0,0,0,8,8h64a8,8,0,0,0,8-8V120A15.87,15.87,0,0,0,219.31,108.68ZM208,208H160V152a8,8,0,0,0-8-8H104a8,8,0,0,0-8,8v56H48V120l80-80,80,80Z"></path></svg>
                         <span>Home</span>
+                    </button>
+                    <button
+                        type="button"
+                        className={currentPage === 'Produtos' ? `${style.active}` : ''}
+                        onClick={() => setCurrentPage('Produtos')}
+                    >
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256"><path d="M232,208a8,8,0,0,1-8,8H32a8,8,0,0,1-8-8V48a8,8,0,0,1,16,0v94.37L90.73,98a8,8,0,0,1,10.07-.38l58.81,44.11L218.73,90a8,8,0,1,1,10.54,12l-64,56a8,8,0,0,1-10.07.38L96.39,114.29,40,163.63V200H224A8,8,0,0,1,232,208Z"></path></svg>
+                        <span>Dashboard</span>
                     </button>
                     <button
                         type="button"

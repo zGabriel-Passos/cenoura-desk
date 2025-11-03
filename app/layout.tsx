@@ -16,7 +16,7 @@ const poppins = Poppins({
 });
 
 export const metadata: Metadata = {
-  title: "CenouraHub - Agente Repositório Python",
+  title: "CenouraDesk - Agente Repositório Python",
   description: "Descubra projetos e ideias.",
   icons: {
     icon: '/icon2.png',
